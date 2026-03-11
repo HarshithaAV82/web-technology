@@ -1,0 +1,69 @@
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+      </head>
+      <body>
+        <h2>Basic E-Commerce Order Form</h2>
+        <p>Please fill the details to place your order.</p>
+
+        <form>
+          <div>
+            <h1>Registration Form</h1>
+          </div>
+          <div>
+            <i>name</i>
+            <span>*</span>
+            <span>:</span>
+            <input type="text" name="nameForName" id="nameID" required />
+          </div>
+          <br />
+          <div>
+            <i>Select Product</i>
+            <span>:</span>
+            <div>
+    <input type="radio" name="product" id="mobile">Mobile
+    <input type="radio" name="product" id="laptop">Laptop
+    <input type="radio" name="product" id="headphones">Headphones
+    <input type="radio" name="product" id="smartwatch">Smart Watch
+
+    </div>
+
+    <br>
+          <div>
+            <i>Purchase Month</i>
+            <span>:</span>
+            <input type="month" name="PurchaseMonth" id="PurchaseId">
+          </div>
+          <div>
+            <i>Delivery week</i>
+            <span>:</span>
+            <input type="datetime-local" name="orderDateTime" id="OderId">
+          </div><br>
+          <div>
+            <i>payamount</i>
+            <input type="hidden" name="orderId" id="OdderId">
+          </div>
+        <br>
+          <div>
+            <span>IMAGE</span>
+            <input type="image" src="https://www.bing.com/th/id/OIP.PqgeF2SjkZjKiLyjqZGT6QHaEo?w=247&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Submit Order">
+          </div><br>
+    <div>
+    <i>Select Product</i>
+    <span>:</span>
+    <select name="product">
+    <option>Mobile</option>
+    <option>Laptop</option>
+    <option>Headphones</option>
+    <option>Smart Watch</option>
+    </select>
+    </div>
+      <div>
+            <button>Submit Order</button>
+          </div>
+        </form>
+      </body>
+    </html>
