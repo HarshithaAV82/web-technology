@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>form</title>
+  </head>
+  <body>
+    <h2>Form to Fill</h2>
+    <p>here is an form to fill the details of the students.</p>
+    <p>This Form is contains all the details of Students.</p>
+    <a href="index.html">BACK HOME</a>
+
+    <form>
+      <div><h1>Registration Form</h1></div>
+      <br />
+      <div>
+        <i>Name</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="text" name="nameForName" id="nameForId" required />
+      </div>
+      <br />
+      <div>
+        <i>USN</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="text" name="usnOfStudent" id="usnForId" required />
+      </div>
+      <br />
+      <div>
+        <i>Email</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="email" name="emailOfStudent" id="emailId" required />
+      </div>
+      <br />
+      <div>
+        <i>Date of Birth</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="date" name="dateOfBirth" id="dateofBirthId" required />
+      </div>
+      <br />
+      <div>
+        <div>
+          <i>age</i>
+          <span>:</span>
+          <input type="number" name="Age" id="ageID" required />
+        </div>
+        <br />
+        <i>Gender</i>
+        <span>*</span>
+        <span>:</span>
+        <input
+          type="radio"
+          name="genderOfStudent"
+          id="genderId"
+          required
+        />Female
+        <input type="radio" name="genderOfStudent" id="genderId" required />Male
+      </div>
+      <br />
+      <div>
+        <i>Subjects</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="checkbox" name="Java" id="subjectId" required />JAVA
+        <input type="checkbox" name="HTML" id="SubjectId" required />HTML
+      </div>
+      <br />
+      <div>
+        <button>Submit</button>
+        <button>Cancel</button>
+      </div>
+    </form>
+  </body>
+</html>
