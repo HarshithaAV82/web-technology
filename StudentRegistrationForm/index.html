@@ -2,6 +2,20 @@
 <html>
   <head>
     <title>Registration Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Datatype:wght@100..900&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Playwrite+DK+Uloopet+Guides&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-pPL+dW6SftaoW2Y4c4isPZ3flctyO1ajE4eRz1Y1sDijC1QjN9SEkqOxMrOo2F1hbv1+xVd5xYxQv4gz/2aQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <h1>Student Registration Portal</h1>
@@ -20,7 +34,10 @@
       academic year 2026.
     </p>
 
-    <h2>Personal Details</h2>
+    <h2>
+      Personal Details
+      <i class="fa-solid fa-align-left" aria-hidden="true"></i> ☰
+    </h2>
     <p>Name: Harshitha A V</p>
     <p>Date of Birth: 12-05-2003</p>
     <p>Gender: Female</p>
@@ -70,7 +87,7 @@
 
     <h2>Digital Learning in Engineering Education</h2>
 
-    <p>
+    <p class="datatype-uniquifie">
       <b>Digital learning</b> is the use of
       <i>technology, online platforms, and digital tools</i> to support
       education. Many <strong>engineering colleges in India</strong> have
@@ -106,6 +123,72 @@
       <strike>traditional classroom-only learning</strike> modern hybrid
       education models.
     </p>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <td><input type="text" required /></td>
+        </tr>
+
+        <tr>
+          <th>USN</th>
+          <td><input type="text" required /></td>
+        </tr>
+
+        <tr>
+          <th>Date of Birth</th>
+          <td><input type="date" required /></td>
+        </tr>
+
+        <tr>
+          <th>Gender</th>
+          <td>
+            <input type="radio" required /> Male
+            <input type="radio" required /> Female
+          </td>
+        </tr>
+
+        <tr>
+          <th>Department</th>
+          <td><input type="text" required /></td>
+        </tr>
+
+        <tr>
+          <th>Skills</th>
+          <td>
+            <input type="checkbox" required /> Java
+            <input type="checkbox" /> HTML
+          </td>
+        </tr>
+
+        <tr>
+          <th>Email</th>
+          <td><input type="email" required /></td>
+        </tr>
+
+        <tr>
+          <th>Phone</th>
+          <td><input type="text" required /></td>
+        </tr>
+
+        <tr>
+          <th>Address</th>
+          <td><textarea required></textarea></td>
+        </tr>
+
+        <tr>
+          <th>Submit</th>
+          <td>
+            <input type="submit" value="Register" required />
+            <input type="reset" value="Clear" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
     <img src="quiz1.jpg" alt="image" height="150vh" />
     <img src="image.jpg" alt="image1" height="150vh" />
     <img src="Quiz2.jpg" alt="image2" height="150vh" />
@@ -149,12 +232,6 @@
     <video width="320" controls autoplay muted>
       <source src="https://www.w3schools.com/html/mov_bbb.mp4" />
     </video>
-    <h2>Video 2</h2>
-    <video width="320" controls autoplay muted>
-      <source src="https://www.w3schools.com/html/movie.mp4" />
-    </video>
-
-    <br />
 
     <iframe
       width="560"
@@ -185,5 +262,14 @@
     <a href="validation.html">Validation</a><br />
     <a href="about.html">About</a><br />
     <a href="home.html">Home</a>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.863065293727!2d77.60018857485335!3d12.916521387393793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15e2df6c9ccf%3A0xf1dc47ea7a6a133!2sX-workz%20BTM!5e0!3m2!1sen!2sin!4v1773755396795!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
   </body>
 </html>

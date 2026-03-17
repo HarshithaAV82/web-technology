@@ -2,13 +2,24 @@
 <html>
   <head>
     <title>Online Quiz Platform</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Datatype:wght@100..900&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Playwrite+DK+Uloopet+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="index.css" rel="StyleSheet" />
   </head>
   <body>
     <h1>Welcome to Online Quiz Platform</h1>
     <p>Test your knowledge with our simple quiz.</p>
 
+    <i class="fa-solid fa-question"></i>
+
     <h2>About Quiz</h2>
-    <p>
+    <p class="bitcount-prop-single-ink-uniquifier">
       This quiz contains multiple questions from programming and general
       knowledge.
     </p>
@@ -85,6 +96,32 @@
       <strike>paper-based quizzes</strike> with faster and more efficient
       digital assessment methods.
     </p>
+    <table border="1">
+      <tr>
+        <th>Question No</th>
+        <th>Question</th>
+        <th>Options</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>What is HTML?</td>
+        <td>
+          <input type="radio" name="q1" /> Programming Language <br />
+          <input type="radio" name="q1" /> Markup Language <br />
+          <input type="radio" name="q1" /> Database <br />
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Which is a CSS framework?</td>
+        <td>
+          <input type="radio" name="q3" /> Bootstrap <br />
+          <input type="radio" name="q3" /> Java <br />
+          <input type="radio" name="q3" /> Python <br />
+        </td>
+      </tr>
+    </table>
     <img src="quiz1.jpg" alt="image" height="150vh" />
     <img src="questions.png" alt="image1" height="150vh" />
     <img src="Quiz2.jpg" alt="image2" height="150vh" />
@@ -182,5 +219,14 @@
     <a href="style.html">Style</a><br />
     <a href="solutions.html">Solutions</a><br />
     <a href="home.html">HOME</a>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747160.651375666!2d87.70270849373858!3d23.484383524444972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cf1fb99fb05ed0d%3A0x689ddf1f83e9df26!2sOnline%20Quizzes!5e0!3m2!1sen!2sin!4v1773756062287!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
   </body>
 </html>
