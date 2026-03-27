@@ -7,3 +7,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+.classb{
+  color: lavender;
+  background-color: palevioletred;
+}
+*{
+  background-color:gray;
+}

@@ -7,3 +7,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.classA{
+  background-color: springgreen;
+}
+*{
+  background-color: lightblue;
+}

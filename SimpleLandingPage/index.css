@@ -7,3 +7,14 @@
   font-variation-settings:
     "wdth" 100;
 }
+.classA{
+  color: teal;
+  background-color: lightcyan;
+}
+*{
+  background-color: mistyrose;
+}
+
+.classB{
+  background-color: limegreen;
+}
